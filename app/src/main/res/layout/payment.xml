@@ -17,7 +17,7 @@
         <Button
             android:layout_width="413dp"
             android:layout_height="48dp"
-            android:background="#AB825F" />
+            android:background="@color/brown" />
 
     </LinearLayout>
 
@@ -53,27 +53,27 @@
             android:id="@+id/oplata"
             android:layout_width="413dp"
             android:layout_height="100dp"
-            android:background="#8FC4C4C4" />
+            android:background="@color/gray" />
         <Button
             android:id="@+id/oplata2"
             android:layout_width="413dp"
             android:layout_height="100dp"
-            android:background="#DEC4C4C4" />
+            android:background="@color/gray2" />
         <Button
             android:id="@+id/oplata3"
             android:layout_width="413dp"
             android:layout_height="100dp"
-            android:background="#8FC4C4C4" />
+            android:background="@color/gray" />
         <Button
             android:id="@+id/oplata4"
             android:layout_width="413dp"
             android:layout_height="100dp"
-            android:background="#DEC4C4C4" />
+            android:background="@color/gray2" />
         <Button
             android:id="@+id/oplata5"
             android:layout_width="413dp"
             android:layout_height="100dp"
-            android:background="#8FC4C4C4" />
+            android:background="@color/gray" />
 
     </LinearLayout>
 
@@ -81,7 +81,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:menu="@menu/menu"
-        android:background="#AB825F"
+        android:background="@color/brown"
         app:itemTextColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

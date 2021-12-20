@@ -19,7 +19,7 @@
         <Button
             android:layout_width="413dp"
             android:layout_height="48dp"
-            android:background="#AB825F" />
+            android:background="@color/brown" />
 
     </LinearLayout>
 
@@ -76,7 +76,7 @@
             android:id="@+id/blackcoffee"
             android:layout_width="117dp"
             android:layout_height="27dp"
-            android:background="#204D48"
+            android:background="@color/green"
             android:text="Черный кофе"
             android:textAllCaps="false"
             android:textColor="@color/white"
@@ -98,7 +98,7 @@
             android:id="@+id/cappuccino"
             android:layout_width="117dp"
             android:layout_height="27dp"
-            android:background="#204D48"
+            android:background="@color/green"
             android:text="Капучино"
             android:textAllCaps="false"
             android:textColor="@color/white"
@@ -120,7 +120,7 @@
             android:id="@+id/latte"
             android:layout_width="117dp"
             android:layout_height="27dp"
-            android:background="#204D48"
+            android:background="@color/green"
             android:text="Латте"
             android:textAllCaps="false"
             android:textColor="@color/white"
@@ -180,7 +180,7 @@
         <Button
             android:layout_width="66dp"
             android:layout_height="17dp"
-            android:background="#00B012"
+            android:background="@color/light_green"
             android:text="99.00"
             android:textAllCaps="false"
             android:textColor="@color/white"
@@ -242,7 +242,7 @@
         <Button
             android:layout_width="66dp"
             android:layout_height="17dp"
-            android:background="#00B012"
+            android:background="@color/light_green"
             android:text="99.00"
             android:textAllCaps="false"
             android:textColor="@color/white"
@@ -301,7 +301,7 @@
         <Button
             android:layout_width="66dp"
             android:layout_height="17dp"
-            android:background="#00B012"
+            android:background="@color/light_green"
             android:text="129.00"
             android:textAllCaps="false"
             android:textColor="@color/white"
@@ -360,7 +360,7 @@
         <Button
             android:layout_width="66dp"
             android:layout_height="17dp"
-            android:background="#00B012"
+            android:background="@color/light_green"
             android:text="169.00"
             android:textAllCaps="false"
             android:textColor="@color/white"
@@ -434,7 +434,7 @@
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#AB825F"
+        android:background="@color/brown"
         app:itemTextColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
