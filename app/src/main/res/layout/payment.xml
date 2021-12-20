@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:layout_width="413dp"
+            android:layout_height="48dp"
+            android:background="#AB825F" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Оплата:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="13dp"
+            android:layout_marginStart="50dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/oplata"
+            android:layout_width="413dp"
+            android:layout_height="100dp"
+            android:background="#8FC4C4C4" />
+        <Button
+            android:id="@+id/oplata2"
+            android:layout_width="413dp"
+            android:layout_height="100dp"
+            android:background="#DEC4C4C4" />
+        <Button
+            android:id="@+id/oplata3"
+            android:layout_width="413dp"
+            android:layout_height="100dp"
+            android:background="#8FC4C4C4" />
+        <Button
+            android:id="@+id/oplata4"
+            android:layout_width="413dp"
+            android:layout_height="100dp"
+            android:background="#DEC4C4C4" />
+        <Button
+            android:id="@+id/oplata5"
+            android:layout_width="413dp"
+            android:layout_height="100dp"
+            android:background="#8FC4C4C4" />
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/menu"
+        android:background="#AB825F"
+        app:itemTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/elsom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/___1__removebg_preview_1" />
+
+        <ImageView
+            android:id="@+id/optima"
+            android:layout_width="239dp"
+            android:layout_height="134dp"
+            app:srcCompat="@drawable/_55a45d1_e0ca_4136_9d21_9f80a963ccc3_removebg_preview_1" />
+
+        <ImageView
+            android:id="@+id/demirbank"
+            android:layout_width="226dp"
+            android:layout_height="57dp"
+            app:srcCompat="@drawable/demirbank_removebg_preview_1" />
+
+        <ImageView
+            android:id="@+id/Kyrgyzstan"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            app:srcCompat="@drawable/_2652_removebg_preview_1" />
+
+        <ImageView
+            android:id="@+id/baitushum"
+            android:layout_width="251dp"
+            android:layout_height="95dp"
+            app:srcCompat="@drawable/c6222d9f_bb5d_4945_8d1a_5754af2182a5_jpg_1" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
